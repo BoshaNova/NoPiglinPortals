@@ -1,14 +1,13 @@
 {
   "required": true,
   "package": "com.gkoliver.nopiglinportals.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_21",
   "refmap": "nopiglinportals.refmap.json",
   "mixins": [
-    "NetherPortalBlockMixin",
-    "CropBlockMixin"
+    "NetherPortalBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1
   },
-  "minVersion": "0.8"
+  "minVersion": "0.8.5"
 }
